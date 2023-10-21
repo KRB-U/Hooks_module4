@@ -1,6 +1,6 @@
 import { useToggle } from 'components/Hooks/useToggle';
 import { ModalA } from 'components/ModalA/ModalA';
-import { useState, useEffect } from 'react';
+// import { useState, useEffect } from 'react';
 
 const ExplorerView = () => {
   // const [value, setValue] = useState(0);
@@ -64,25 +64,25 @@ const ExplorerView = () => {
   //       color: '#010101',
   //     }}
   //   >
-  {
-    /* <span>{value}</span> */
-  }
-  {
-    /* <button onClick={() => setValue(value + 1)}>Zero: {value}</button> */
-  }
+  // {
+  /* <span>{value}</span> */
+  // }
+  // {
+  /* <button onClick={() => setValue(value + 1)}>Zero: {value}</button> */
+  // }
 
-  {
-    /* <button onClick={() => setFirstValue(firstValue + 1)}>
+  // {
+  /* <button onClick={() => setFirstValue(firstValue + 1)}>
         firstValue: {firstValue}
       </button>
       <button onClick={() => setSecondValue(secondValue + 1)}>
         secondValue: {secondValue}
       </button> */
-  }
+  // }
   // </div>
   // );
 
-  const { isOpen, open, close, toggle } = useToggle();
+  const { isOpen, close, toggle } = useToggle();
 
   return (
     <>
