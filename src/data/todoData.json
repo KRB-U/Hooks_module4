@@ -1,0 +1,27 @@
+[
+  {
+    "id": "pzmTPOU0r-OvODbZETq9S",
+    "title": "Прибрати кімнату",
+    "completed": false
+  },
+  {
+    "id": "KGX9K3xUTVzv_XKNmzzsV",
+    "title": "Закупити продукти",
+    "completed": false
+  },
+  {
+    "id": "XxjgAAGPYz3rmJHX5HjHi",
+    "title": "Написати звіт",
+    "completed": true
+  },
+  {
+    "id": "DYAjhE-8bttcId8v7md7L",
+    "title": "Підготуватися до презентації",
+    "completed": false
+  },
+  {
+    "id": "s3RXsBhX4WoSCjHIQmzRF",
+    "title": "Провести тренування",
+    "completed": true
+  }
+]
