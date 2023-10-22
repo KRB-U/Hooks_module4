@@ -1,14 +1,17 @@
 import styled from 'styled-components';
 
+const changeBorderColor = ({ completed, theme }) => {
+  console.log(theme);
+  if (completed) {
+    return theme.colors.green;
+  }
+  return theme.colors.red;
+};
+
 const TodoContainer = styled.div`
-  border: 2px solid;
-  border-radius: 5px;
-  border-color: ${({ completed }) => {
-    if (completed) {
-      return 'green';
-    }
-    return 'red';
-  }};
+  border: 4px solid;
+  border-radius: 10px;
+  border-color: ${changeBorderColor};
   margin-bottom: 5px;
 `;
 
