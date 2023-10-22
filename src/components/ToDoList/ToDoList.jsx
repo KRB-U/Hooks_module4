@@ -1,11 +1,12 @@
 import { ToDoListItem } from 'components/ToDoListItem/ToDoListItem';
+import { TodoContainer } from './ToDoList.styled';
 
 const ToDoList = ({ todos, onRemoveTodo, totoggleTodo }) => {
   return (
     <ul>
       {todos.map(todo => {
         return (
-          <div key={todo.id}>
+          <TodoContainer completed={todo.completed} key={todo.id}>
             <ToDoListItem todo={todo} />
             <input
               type="checkbox"
@@ -15,7 +16,7 @@ const ToDoList = ({ todos, onRemoveTodo, totoggleTodo }) => {
             <button type="submit" onClick={() => onRemoveTodo(todo.id)}>
               Delete
             </button>
-          </div>
+          </TodoContainer>
         );
       })}
     </ul>
