@@ -9,6 +9,14 @@ const theme = {
     green: '#ADDFAD',
     red: '#A0522D',
   },
+
+  radii: {
+    sm: '4px',
+    md: '8px',
+    lg: '12px',
+  },
+
+  spacing: value => `${value * 2}px`,
 };
 
 ReactDOM.createRoot(document.getElementById('root')).render(
